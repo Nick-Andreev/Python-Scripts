@@ -47,5 +47,5 @@ for akItem in akRoot.iterfind('vrops:adapter-kind', ns):
 			adImpact = adDetailItem.text
 
 			# Output results
-			print akName, ';', rkName, ';', adName, ';', adSeverity, ';', adImpact
+			print (akName, ';', rkName, ';', adName, ';', adSeverity, ';', adImpact)
 

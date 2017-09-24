@@ -34,5 +34,5 @@ for akItem in akRoot.iterfind('vrops:adapter-kind', ns):
 		rCount = rPageInfoItem.attrib['totalCount']
 
 		# Output results
-		print akName, ';', rkName, ';', rCount
+		print (akName, ';', rkName, ';', rCount)
 
